@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="jquery-2.1.4.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/phaser/dist/phaser.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    </head>
+  <body>
+      <div class="control">
+      <h1 style="color: gold;">Flappy.io</h1>
+      <h4 style="color: palegreen;">Parameters</h3> 
+      <input type="text" class = "input" id="grav" placeholder= "Gravity" def><br>
+      <input type="text" class = "input" id="t_velo" placeholder= "Velocity" def><br>
+      <input type="text" class = "input" id="muv" placeholder= "Max Up Velocity" def><br>
+      <input type="text" class = "input" id="u_acc" placeholder= "Max Up Acceleration" def>
+      <br><br>
+      <button id="btn1" class="button">
+        <span class="button__text">Intialize</span>
+        <span class="button__icon">
+          <ion-icon name="rocket-outline"></ion-icon>
+        </span>
+      </button>
+      <br>
+      <h4 style="color: palegreen;">Simulator</h3><br>
+    </div>
+
+    <div class="loader"></div>
+
+    <script src="engine.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  </body>
+</html>
+
+<style>
+  body {
+    background: #301934;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+  }
+  .button {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family:'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  } 
+  .button:hover {
+    background-color: #008168;
+  }
+  .button:active {
+    background-color: #006e58;
+  }
+  .button__text,
+  .button__icon{
+      display: inline-flex;
+      align-items: center;
+      padding: 0 24px;
+      color: #fff;
+      height: 100%;
+  }
+  .button__icon{
+    font-size: 1.5em;
+    background: rgba(0,0,0,0.08);
+  }
+
+  .input{
+    background: #fff;
+    display: block;
+    border: 1px solid  rgba(0, 0, 0, .2);
+    font-size: 13px;
+    font-family: "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  
+  .input:focus{
+    outline: none;
+    border-color: #09f;	
+    color: #222;
+  }
+
+  .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    transition: opacity 1s, visibility 1s;
+  }
+
+  .loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: gold;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+  }
+
+  @keyframes loading{
+    from{
+      transform: rotate(0turn);
+    }
+    to{
+      transform: rotate(1turn);
+    }
+  }
+
+</style>

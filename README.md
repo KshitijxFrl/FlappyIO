@@ -12,9 +12,9 @@ Flappy.io is a custom reskin of one of the most popular yet simpile concept whic
 *  As there is no deicated 2/3d engine in vanila javascript the main.js is solving that problem by becoming a engine, which is responsible for the actual mutal progression of the logical and graphical modules.
 *  For the front end it use a basic html and css page which allows user to enter some parmeters to observe the various chages happen in the simulator and the front end page is very strong and capabel enough to handel all of the heavy animations with smooth operation and processing. 
 <br><br>
-## Architecture Diagram
+## Architecture Diagram 🛠
 <a href="#"><img width="80%" height="auto" src="./mdassest/architecture.png" height="175px"/></a>
-## Default Parametes   
+## Default Parametes ⚙   
 ** Please note that these parameters are defined under concepts of object animation and movement concept in javascript use default if not familer (given down below).**
  
  * Gravity = 900
@@ -23,7 +23,7 @@ Flappy.io is a custom reskin of one of the most popular yet simpile concept whic
  * Upward Acceleration = -450  
 
 
-## Try Flappy.io 
+## Try Flappy.io 🛸
   
  https://kshitijxfrl.github.io/FlappyIO/
 

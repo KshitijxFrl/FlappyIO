@@ -1,4 +1,4 @@
-# Flappy.io 😂
+# Flappy.io 🚀
 
 <a><img src="https://img.shields.io/badge/javascript-.js-yellow" /></a>
 <a><img src="https://img.shields.io/badge/Html-%20%20%20%20%20%20%20-red" /></a>

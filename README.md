@@ -10,7 +10,7 @@ Flappy.io is a custom reskin of one of the most popular yet simpile concept whic
 # Architecture Diagram
 
 # Default Parametes   
-** Please note that these parameters are defined under concepts of object animation and movement concept in javascript use default if not familer.**
+** Please note that these parameters are defined under concepts of object animation and movement concept in javascript use default if not familer (given down below).**
  
  * Gravity = 900
  * Velocity = 400

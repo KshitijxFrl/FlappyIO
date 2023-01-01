@@ -1,5 +1,10 @@
 # Flappy.io
 
+<a><img src="https://img.shields.io/badge/javascript-.js-yellow" /></a>
+<a><img src="https://img.shields.io/badge/Html-%20%20%20%20%20%20%20-red" /></a>
+<a><img src="https://img.shields.io/badge/CSS-%20%20%20%20%20%20%20-blue" /></a>
+
+
 Flappy.io is a custom reskin of one of the most popular yet simpile concept which is the flappy concept which many of us known as the flappy bird game but the major feature of the flappyio is that it uses partial reinforcement learning with a integration of custom feed forward neural network and custom learning module by which it learn the game over the multiple generarions and try to achive the highest score.
 *  The FlappyIO is created in javascript and it does not use external any machine/deep learning library. 
 *  Every module of this project (which include all the modules of the neural network, logic, learning, math, etc) is created from the scratch.

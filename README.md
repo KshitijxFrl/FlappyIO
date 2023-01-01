@@ -8,7 +8,7 @@ Flappy.io is a custom reskin of one of the most popular yet simpile concept whic
 *  For the front end it use a basic html and css page which allows user to enter some parmeters to observe the various chages happen in the simulator and the front end page is very strong and capabel enough to handel all of the heavy animations with smooth operation and processing. 
 <br><br>
 # Architecture Diagram
-
+<a href="#"><img width="100%" height="auto" src="./mdassest/architecture.png" height="175px"/></a>
 # Default Parametes   
 ** Please note that these parameters are defined under concepts of object animation and movement concept in javascript use default if not familer (given down below).**
  
